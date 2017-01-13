@@ -1,0 +1,26 @@
+{
+  "name": "protocol-relative-replace-loader",
+  "version": "1.0.0",
+  "description": "Webpack loader for SASS/LESS/CSS files which replaces protocol-relative URLs with https when used in the url() functional notation (Example: background-image: url('//hostname.com/photo.jpg') => background-image: url('https://hostname.com/photo.jpg'))",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/john-bai/protocol-relative-replace-loader.git"
+  },
+  "keywords": [
+    "protocol-relative",
+    "protocol",
+    "relative",
+    "loader",
+    "webpack"
+  ],
+  "author": "John Bai",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/john-bai/protocol-relative-replace-loader/issues"
+  },
+  "homepage": "https://github.com/john-bai/protocol-relative-replace-loader#readme"
+}
